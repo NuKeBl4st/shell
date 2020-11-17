@@ -1,0 +1,392 @@
+sudo echo echo
+echo Hello World
+echo "Hello world"
+echo Hello ; echo hello2
+echo "hello ; echo hello2"
+echo 'hello ; echo hello2'
+echo 'text'
+echo '1'
+echo "1"
+echo $SHELL
+echo "$SHELL"
+echo '$SHELL'
+echo 'date'
+echo `date`
+date
+echo "$(date)"
+echo $SHELL
+echo $SHELL=SHELL
+echo $SHELL
+printenv
+SHELL=HELLO
+$SHELL
+who
+pwd
+man
+pwd
+ls
+echo "$SHELL"
+echo $SHELL
+echo hola hola
+echo "hola hola"
+echo "hola hola $(SHELL)"
+echo ola '$date'
+echo 'date'
+echo date
+echo `date`
+echo $(date)
+echo $date
+echo "World is nice and so on"
+echo 'this is another'
+echo 'date'
+echo '$date'
+echo '$(date)'
+echo `$(date)`
+echo `asd  $(date)`
+echo "asd  $(date)"
+echo "world \ \
+is on the same line"
+echo "world \
+is on the same line"
+echo "lklk
+echo "lkalk\
+\
+\
+\
+\
+\
+
+echo "this is \n new line"
+echo 'this is \n new line'
+echo "this is \t new line"
+echo `this is \t new line` 
+echo this ; echo that
+echo " this ; echo that"
+echo  this \ ; echo that
+echo  this \; echo that
+echo "this is text with" comillas dobles"
+echo "this is text with" "comillas dobles"
+echo "this dollar sign \$SHELL"
+echo "this dollar sign \$SHELL $SHELL"
+echo this \; echo that
+echo this ; echo that
+echo this /; echo that
+$(comand)
+cat /proc/cpuinfo
+cat
+cat /etc
+cat /etc/os-release
+cd 
+cd Data
+cd Data/
+cd Data/ 
+cd Data/
+cd
+cd Data/shell
+cd ..
+cd shell
+cd ../../
+cd shell
+cd Data/shell/cd..
+cd Data
+cd 
+cd Data/shell
+cat Text_example.txt
+cat -n Text_example.txt
+cat -t Text_example.txt
+cat  Text_example.txt
+cat -n  Text_example.txt
+cat  Text_example.txt Text_example.txt
+cat  Text_example.txt
+ Text_example.txt
+cat -n Text_example.txt Text_example.txt
+Text_example.txt
+cat  Text_example.txt Text_example.txt
+cd
+cat cd Data/shell Text_example.txt
+cat Data/shell/Text_example.txt
+cat pwd
+pwd
+cd Data
+pwd
+ls
+cd
+ls
+ls Downloads/dropbox_2020.03.04_amd64.deb cd
+cd Data/challenge
+ls
+cd
+ls ls Documents
+ls Documents
+ls anaconda3
+cd anaconda3
+ls -1
+ls -s
+ls -1
+ls -1s
+ls -1 -s
+cd
+ls
+ls -a
+cd
+cd /.
+cd .
+cd
+cd .
+cd .emacs.d
+ls
+ls a
+ls -a
+ls -l
+cd
+ls -la
+ls -las
+ls -l Data/README.md
+cd
+ls -S
+ls -aS
+ls -aSl
+ls -aSr
+ls -aSrl
+ls -aSl
+ls -at
+ls -atsr
+ls -atrl
+touch file00
+ls
+touch file00.csv
+ls
+ls -l file00
+chmod 
+chmod
+ls -l file00
+chmod u+x, g+w, o+w file00
+chmod u+x, g-w, o+w file00
+chmod u+x g-w,o+w file00
+ls
+ls -l file00
+chmod 777 file00
+ls -l file00
+chmod g+w file00
+ls -l file00
+chmod 770 file00
+ls -l file00
+ls g+w file00
+ls -l file00
+chmod g+w file00
+ls -l file00
+mkdir my_first_dir
+ls
+mkdir my_first_dir
+ls
+mkdir my_first_dir2 my_first_dir3
+ls
+mkdir -p my_second_dir/uno
+rm file00
+rm my_first_dir
+rm -r my_first_dir my_first_dir2
+rm -r my_first_dir3
+makedir my_first_dir
+mkdir my_first_dir
+touch fichero2
+touch fichero3
+ls
+rm my_second_dir
+rm -r my_second_dir
+cd
+ls
+rm file00.csv
+ls
+cp fichero2 fichero3 my_first_dir
+ls my_first_dir
+cp my_first_dir my_first_copy
+cp my_first_dir my_first_copy -r
+ls my_first_copy
+mv fichero2 fichero_moved
+ls
+mv my_first_copy my_moved_dir
+ls
+mkdir first_dir
+cd my_first_dir/
+touch text_file.txt
+ls
+mkdir first_dir
+chmod 777 text_file.txt
+ls -l
+mkdir sub1 sub2 sub3
+ls
+cp text_file.txt sub1
+cd sub1
+cd..
+cd ..
+ls
+mv text_file.txt text_file.txt2 sub2
+mv text_file.txt text_file.txt2 
+mv text_file.txt text_file.txt2 -f
+cp text_file.txt text_file.txt2
+ls -l text_file.txt
+ls -l 
+cd sub1
+cd ..
+cd sub2
+cd ..
+cd sub3
+ls
+cd ..
+cd sub1
+ls
+mv text_file.txt text_file.txt2 sub2
+cp sub1 sub3
+cd ..
+cp sub1 sub3
+cp -r sub1 sub3
+cd sub2
+ls
+mv text_file.txt2 to text_file.txt.backup
+mv text_file.txt2 text_file.txt.backup
+mkdir first_dir
+cd ..
+cd
+mkdir first_dir
+touch text_file.txt first_dir
+touch text_file/text_file.txt
+touch first_dir/text_file.txt
+ls first_dir
+cd first_dir
+chmod g+x, o+w text_file.txt
+ls -l
+mkdir sub1 sub2 text_file
+ls
+cp text_file.txt sub1
+ls sub1
+mv text_file.txt sub2/text_file.txt.2
+cp -r sub1 sub3
+ls
+mv sub2/text_file.txt.2 sub2/text_file.txt.backup
+mv sub2/text_file.txt.backup ./.text_file.txt.backup
+ls
+ls -a
+rm -r sub2
+ls
+git
+git config
+git config --global user.name "Angel Antolin"
+git config --global user.email "nukebl4st@gmail.com"
+cat .gitconfig
+git config --global user.name "Angel Antolin"
+git config --global user.email "nukebl4st@gmail.com"
+cat .gitconfig
+cd
+cat .gitconfig
+getit .gitconfig
+gedit. gitconfig
+cat. history > 2020-11-11.txt
+history
+pwd
+mkdir git
+ls
+ls /l
+ls -l
+cd git
+echo "# shell"
+echo "# shell" >> README.md
+cat README.md
+git status
+git init
+git config --get user.name
+git config --get user.email
+git init
+git add README.md
+git commit -m "first commit adding README.md "
+git branch -M main
+git branch -M master
+git status
+git remote add origin https://github.com/NuKeBl4st/shell.git
+git push -u origin master
+man ls
+cat kk.txt
+cd ..
+pwd
+cd Data
+ll
+cd us dot
+cd opentraveldata/
+head optd_airlines.csv
+less optd_airlines.csv
+cd..
+cd ..
+cd shell
+less Finn.txt
+cd ..
+cd opentraveldata
+less optd_aircraft.csv 
+whoami
+bash kk.sh
+bash
+q
+exit
+which ll
+exit
+ll
+bash
+exit
+cd R
+ls
+ls /a
+ls -a
+www.google.es
+echo "hola mundo" > pp.txt
+head pp.txt
+echo "hola mundo" >> pp.txt
+head pp.txt
+echo "Adios mundo cruel" > pp.txt
+head ppt.txt
+head pp.txt
+ls -lrth
+cat pp.txt
+touch pp.txt
+touch pp2.txt
+heco "">pp2.txt
+gedit pp2.txt
+$HISTFILE
+echo $HISTFILE
+tail -n 3/home/dsh/.history
+tail -n 3/home/dsc/.history
+tail -n 3 /home/dsc/.history
+tail -n 5 /home/dsc/.history
+-ls
+/ls
+ls -l
+ls -l /home/dsc/.history
+lsl
+lsl dsc
+ls -l $HISTFILE
+cp /home/dsc/.history /home/git
+touch folder1/one
+mkdir folder1
+mkdir folder2
+touch folder1/one
+touch folder2/one
+rsync -avz folder1/one folder2
+echo "first line">> folder1/one
+head folder1/one
+head folder2/one
+rsync -avz folder1/one folder2
+head folder2/one
+touch folder1/oneB
+rysnc -avz folder1/one folder2
+rysync -avz folder1/one folder2
+rsync -avz folder1/one folder2
+ll folder2
+touch folder2/three
+ll folder2/
+ll folder1/
+rsync -avz folder1 folder2
+rsync -avz folder1/ folder2
+ll folder2/
+rm -r folder2/folder1
+ls folder1
+ls folder2
+cp /home/dsc/.history /home/git
+cd git
+cp /home/dsc/.history history_20201117.txt
