@@ -390,3 +390,117 @@ ls folder2
 cp /home/dsc/.history /home/git
 cd git
 cp /home/dsc/.history history_20201117.txt
+cf ..
+cd ..
+ls
+cd git
+ll
+ls -a
+git status
+git add history_20201117.txt
+git commit -m "first line"
+git push origin master
+git status
+history -i
+history -f
+cd ..
+ls -l
+cd Data
+ls -l
+cd shell
+ls -l
+wc  Text_example.txt
+cat Text_example.txt
+head -n 8 Text_example.txt
+wc -w Text_example.txt
+wc -wlc Text_example.txt
+wc -c Text_example.txt
+echo "hola" | wc
+echo "hol" | wc
+echo "hola" | wc
+echo hola | wc
+echo -n "hola" | wc
+cat Text_example.txt | wc
+cat Text_example.txt | wc -l
+wc Text_example.txt
+cd ..
+cd opentraveldata
+tail -c -1k optd_aircraft.csv | wc
+tail -c -1k optd_aircraft.csv 
+tail -c -1k optd_aircraft.csv | wc
+head -c 1k optd_aircraft.csv| wc
+head -c 1K optd_aircraft.csv| wc
+ls
+ls -l
+ls -ls
+ls -lso
+man ls
+ls -lS
+ls -lS  | tail -n 1
+ls -lS  | tail -n 1 > largest_file.txt
+ls
+cd largest_file.txt
+cat  largest_file.txt
+wc  largest_file.txt
+head -n 5  largest_file.txt | wc l
+head -n 5  largest_file.txt | wc -l
+head -n 5  largest_file.txt
+head -n 5  largest_file.txt | wc -c
+cd ..
+ls
+cd ..
+ls
+cd Data
+ls 
+cd ..
+ls
+cd data
+ls
+cd Data
+ls
+cd shell
+ls
+head -n 5 Finn.txt
+head -n 5 Finn.txt | wc -c 
+head -n 3 Text_example.txt
+man cat
+less -N Text_example.txt
+cat Text_example.txt
+cat -n Text_example.txt
+cat -n Text_example.txt | head -n 3
+ls
+cat -n Text_example.txt
+cat -n Text_example.txt > Text_example2.txt
+ls
+cat Text_example2.txt
+cat -n Text_example >> Text_example2.txt
+cat Text_example >> Text_example2.txt
+cat Text_example2.txt
+cat -n Text_example >> Text_example2.txt
+cat -n Text_example | echo  >> Text_example2.txt
+echo cat -n Text_example >> Text_example2.txt
+cat Text_example2.txt
+echo cat -n Text_example >> Text_example2.txt
+cat Text_example2.txt
+echo 'cat -n Text_example' >> Text_example2.txt
+cat Text_example2.txt
+echo "cat -n Text_example" >> Text_example2.txt
+cat Text_example2.txt
+cat  Text_example >> Text_example2.txt
+q
+echo $(date)
+echo $(date) > Test.txt
+cat Text.txt
+cat Test.txt
+history -t
+history -i
+history -i > Test_5.txt
+cat Test_5.txt
+history 
+man history
+cd ..
+cd git
+ls -lrt
+cat home/.history|grep cp
+cat ~/.history|grep cp
+cp $HISTFILE ~/git/history_20201117.txt
